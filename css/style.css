@@ -1,0 +1,121 @@
+.background-image{   
+    background-image:url("../image/nav-img.png");
+    height: 324px;
+    max-width: 1366px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-image::after{
+    content: " ";
+    background-color: black;
+    height: 324px;
+    max-width: 1366px;
+    display: block;
+    opacity: 60%;
+    position: relative;
+}
+.header-box{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;  
+    width: 1136px;
+    width: 100%;
+    padding: 30px 90px 0  139px;
+}
+.li-class{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+
+}
+
+
+.li-text{
+    color: white;
+    font-weight: bold; 
+    font-size: 16px; 
+}
+.margin-li{
+    margin-right: 49px;
+}
+.active{
+    color: #5863F8;
+}
+.little-box{
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+.mid-contact{
+    font-size: 42px;
+    margin: 145px 0 0 139px;
+    font-weight: 900;
+}
+.home-contact{
+    display: flex;
+    margin:14px 0 0  139px;
+    font-size: 14px;
+}
+.home::after{
+    content: " ";
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    display: inline-block; 
+    margin: 0 14px 0 14px;
+    vertical-align: middle;
+}
+.map-box{
+    max-width: 1088px;
+    width: 100%;
+    margin: 50px auto 56px auto;
+}
+/* section2 */
+.form-box{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto ;
+}
+.form-title1{
+    font-size: 14px;
+    color: #5863F8;
+    font-weight: bold;
+}
+.form-text{
+    font-size: 42px;
+    font-weight: bold;
+    max-width: 378px;
+    width: 100%;
+    height: 115px;
+    margin-right: 16px;
+}
+.left-box{
+    margin-right: 16px;
+}
+.form-box2{
+    display: flex;  
+}
+#bigtext {
+    max-width:720px;
+    width: 100%;
+    height: 288px;  
+    resize: none;
+    background-color: #F8F8F8;
+    color: #CECECE;
+    font-size: 13px;
+    padding: 20px 0 0 20px;
+}
+.textarea:focus{
+    outline: none;
+}
+.input{
+    max-width: 200px;
+    width: 100%;
+    height: 60px;
+}
+.input:focus{
+    outline: none;
+}
+
