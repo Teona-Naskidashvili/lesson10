@@ -227,19 +227,20 @@
     margin-bottom: 20px;
 }
 .fb-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color:white;
+    background-color :#3B5998;
     margin-right: 10px;
 }
-.fa-facebook {
-    color:#3B5998;
-    display: flex;
-    justify-content: center;
+.fa-facebook-f {
+    color:white;
     border-radius: 50%;
     align-items: center;
-    font-size: 51px;
+    font-size: 35px;
     /* margin-top: 5px; */
 }
 .icon{
